@@ -37,7 +37,8 @@ async fn exec_code(
     input: String,
     language: String,
 ) -> Result<ResponsePayload, anyhow::Error> {
-    let filename = format!("{}.{}", id, language);
+    println!("Executing code: {}", id);
+    let filename = format!("/tmp/{}.{}", id, language);
     let mut file = File::create(&filename)?;
     file.write_all(code.as_bytes())?;
 
