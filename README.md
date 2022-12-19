@@ -18,11 +18,11 @@ docker-compose up -d
 ```
 4. Start the worker (and agent):
 ```bash
-./packages/worker/start.sh
+./worker/start.sh
 ```
 5. Start the backend server:
 ```bash
-cd packages/backend
+cd backend
 yarn install
 yarn build
 yarn start
