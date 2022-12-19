@@ -9,7 +9,7 @@
     "prisma:dev": "prisma migrate dev",
     "prisma:deploy": "prisma migrate deploy",
     "prisma:status": "prisma migrate status",
-    "build": "tsc -p .",
+    "build": "yarn prisma:dev && tsc -p .",
     "start": "node dist/index.js",
     "format": "rome format --write ."
   },
