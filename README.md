@@ -56,8 +56,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"code": "print(input())", 
 curl http://localhost:3004/exec/<submission_id>
 ```
 
-### Architecture
-
 ## License
 
 Bounce is licensed under the [MIT License](https://github.com/wyzlle/bounce/blob/main/LICENSE).
