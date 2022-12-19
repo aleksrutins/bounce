@@ -5,6 +5,10 @@ target
 worker
 !worker/
 
+# ts
+node_modules
+dist
+
 # vm
 rootfs.ext4
 linux.bin
