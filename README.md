@@ -2,6 +2,8 @@
 
 Bounce is a scalable and fault-tolerant code execution engine that uses [Firecracker](https://github.com/firecracker-microvm/firecracker) for running code in isolated microVMs and [RabbitMQ](https://rabbitmq.com) for scheduling them.
 
+**IMPORTANT NOTE:** This was not made by me (@aleksrutins)! I just forked it, and then the original author (wyzlle) deleted their account. I have no clue how this thing works, but I'm hoping to figure it out.
+
 ## Getting Started
 1. Install the following dependencies:
     - [Docker](https://docs.docker.com/install/)
